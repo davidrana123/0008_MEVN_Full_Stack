@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row np-gutters>
+    <v-row no-gutters>
       <v-col sm="10" class="mx-auto">
         <v-card class="pa-5">
           <v-card-title>Add New Post</v-card-title>
@@ -36,6 +36,7 @@ export default {
       post: {
         title: "",
         category: "",
+        content: "",
         image: "",
       },
       image: "",
